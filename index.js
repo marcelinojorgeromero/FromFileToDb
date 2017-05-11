@@ -5,7 +5,6 @@ const MongoClient = require('mongodb').MongoClient;
 const clr = require('chalk');
 const inquirer = require('inquirer');
 const promisify = require('es6-promisify');
-//const _ = require('lodash');
 const log = console.log;
 const defaultConnectionStr = 'mongodb://localhost:27017/';
 
